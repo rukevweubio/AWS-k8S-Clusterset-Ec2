@@ -1,6 +1,7 @@
 resource "aws_key_pair" "deployer" {
     key_name   = "my-local-key"
-    public_key = file("id_rsa.pub.pem")
+    public_key = file("${path.module}/id_rsa.pub.pem")
+
 }
 
 resource "aws_vpc" "main" {
