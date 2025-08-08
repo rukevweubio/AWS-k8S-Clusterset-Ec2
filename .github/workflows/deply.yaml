@@ -1,4 +1,4 @@
-name: Deploy Kubernetes Cluster with Terraform
+name: Deploy Kubernetes Cluster with Terraform deployment
 
 on:
   push:
