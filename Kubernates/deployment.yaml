@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: myapp-container
-        image: <DOCKER_REGISTRY_ADDRESS>
+        image: rukevweubio/bitcoin-app-design:latest
         ports:
         - containerPort: 80
 
