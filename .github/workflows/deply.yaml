@@ -35,7 +35,7 @@ jobs:
         run: |
           pwd
           ls -la
-          cd AWS-k8S-Clusterset-Ec2
+          cd terraform
           ls -la
           terraform fmt -check ./terraform
 
